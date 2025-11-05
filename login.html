@@ -2,214 +2,149 @@
 <html lang="EN">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body class="bg-gray-200 ">
-    <div class=" mt-20  flex flex-col items-center ">
-        <h1 class="text-4xl font-bold mb-4 text-blue-600 ">
-            facebook
-        </h1>
-        <div class="bg-white shadow-xl w-full max-w-md p-6 rounded-lg ">
-            <div class="text-center mb-6 text-m/6 font-bold ">
-                <p> Se connecter a facebook</p>
-            </div>
-            <form action="" class="">
-                <div>
-                    <input type="email" id="name" name="e-mail"
-                        class="border border-gray-300 px-2 py-4 w-full  rounded-md mb-3 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
-                        placeholder="Addresse e-mail ou numero de tel.">
-                </div>
-                <div>
-                    <input type="password" id="password" name="password"
-                        class="border border-gray-300 px-2 py-4 w-full  rounded-md  placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
-                        placeholder="Mot de passe">
-                </div>
+        <div class="mt-20  flex flex-col items-center  md:mt-20 ">
+                <div
+                        class="flex flex-col lg:flex-row items-center lg:justify-center lg:space-x-12 px-4 py-10 lg:pb-80 min-h-screen inset-x-0 fixed bottom-0 inset-x-0">
 
-                <button type="submit"
-                    class="bg-blue-500  px-2 py-3 w-full rounded-md mt-3  font-bold text-white  cursor-pointer hover:bg-blue-600 focus:outline-2 focus:outline-offset-2 focus:outline-blue-500 active:bg-blue-700">Se
-                    connecter</button>
-                <a href="#" target="_blank" rel="noopener noreferrer"
-                    class="text-blue-600/100 text-center mt-7 flex items-center justify-center">informations de compte
-                    oublie ?</a>
-                <div class="relative flex py-5 items-center">
-                    <div class="flex-grow border-t border-gray-300"></div>
-                    <span class="flex-shrink mx-4 text-gray-400">ou</span>
-                    <div class="flex-grow border-t border-gray-300"></div>
+                        <div class="lg:w-1/2 lg:max-w-md mb-8 lg:mb-0 text-center lg:text-left">
+                                <h1 class="text-5xl md:text-6xl font-bold mb-1 text-blue-600">
+                                        facebook
+                                </h1>
+                                <p class="hidden sm:block text-xl md:text-2xl lg:text-3xl lg:pr-10 ">
+                                        With Facebook,share and stay in touch with those around you.
+                                </p>
+                        </div>
+
+                        <div class="w-full max-w-sm">
+                                <div class="bg-white shadow-xl p-4 md:p-6 rounded-lg">
+
+                                        <div class="text-center mb-6 text-base font-bold text-gray-800">
+                                                <p>Se connecter à Facebook</p>
+                                        </div>
+
+                                        <form action="" class="">
+                                                <div>
+                                                        <input type="email" id="name" name="e-mail"
+                                                                class="border border-gray-300 px-4 py-3 w-full rounded-md mb-3 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                                                                placeholder="Adresse e-mail ou numéro de téléphone">
+                                                </div>
+                                                <div>
+                                                        <input type="password" id="password" name="password"
+                                                                class="border border-gray-300 px-4 py-3 w-full rounded-md placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                                                                placeholder="Mot de passe">
+                                                </div>
+
+                                                <button type="submit"
+                                                        class="bg-blue-500 px-2 py-3 w-full rounded-md mt-3 font-bold text-white cursor-pointer hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 active:bg-blue-700">
+                                                        Se connecter
+                                                </button>
+
+                                                <a href="#" target="_blank" rel="noopener noreferrer"
+                                                        class="text-blue-600 text-sm text-center mt-4 mb-4 block hover:underline">
+                                                        Informations de compte oubliées ?
+                                                </a>
+
+                                                <div class="relative flex py-3 items-center">
+                                                        <div class="flex-grow border-t border-gray-300"></div>
+                                                        <span class="flex-shrink mx-4 text-gray-500 text-sm">ou</span>
+                                                        <div class="flex-grow border-t border-gray-300"></div>
+                                                </div>
+
+                                                <div class="flex items-center justify-center pt-2">
+                                                        <button type="button"
+                                                                class="bg-green-500 px-4 py-3 w-4/5 rounded-md font-bold text-white cursor-pointer hover:bg-green-600 focus:ring-2 focus:ring-offset-2 focus:ring-green-500 active:bg-green-700 text-base">
+                                                                Créer nouveau compte
+                                                        </button>
+                                                </div>
+                                        </form>
+                                </div>
+                        </div>
                 </div>
-                <div class="flex items-center justify-center">
-                    <button type="submit"
-                        class="bg-green-400  px-2 py-3 w-3/5 rounded-md mt-3  font-bold text-white  cursor-pointer hover:bg-green-500 focus:outline-2 focus:outline-offset-2 focus:outline-green-400 active:bg-green-700 ">Creer
-                        nouveau compte</button>
-                </div>
-            </form>
+                <footer
+                        class="bg-gray-50 text-gray-600 text-xs py-5 md:py-10 border-t border-gray-300  w-full inset-x-0 fixed bottom-0 inset-x-0">
+                        <div class="max-w-4xl lg:max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+                                <div class="mb-4 pb-2 border-b border-gray-300">
+                                        <ul class="flex flex-wrap gap-x-4 gap-y-1">
+                                                <li><a href="#" class="inline-block hover:underline text-gray-700">Français
+                                                                (Canada)</a></li>
+                                                <li><a href="#" class="inline-block hover:underline">English
+                                                                (US)</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Español</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Deutsch</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Português
+                                                                (Brasil)</a></li>
+                                                <li><a href="#" class="inline-block hover:underline">العربية</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">中文(简体)</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">日本語</a></li>
+                                                <li>
+                                                        <button
+                                                                class="text-gray-600 border border-gray-300 bg-white px-2 py-0.5 rounded-sm hover:bg-gray-100">
+                                                                +
+                                                        </button>
+                                                </li>
+                                        </ul>
+                                </div>
+
+                                <div class="mb-4">
+                                        <ul class="flex flex-wrap gap-x-4 gap-y-1">
+                                                <li><a href="#" class="inline-block hover:underline">S’inscrire</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Se
+                                                                connecter</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Emplois</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Messenger</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Facebook
+                                                                Lite</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Vidéo</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Meta
+                                                                Pay</a></li>
+                                                <li><a href="#" class="inline-block hover:underline">Boutique
+                                                                Meta</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Meta AI</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Instagram</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Threads</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Politique
+                                                                de
+                                                                confidentialité</a></li>
+                                                <li><a href="#" class="inline-block hover:underline">Conditions
+                                                                générales</a></li>
+                                                <li><a href="#" class="inline-block hover:underline">Publicité</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Cookies</a>
+                                                </li>
+                                                <li><a href="#" class="inline-block hover:underline">Aide</a>
+                                                </li>
+                                        </ul>
+                                </div>
+
+                                <div class="mt-4 pt-2 text-gray-500 text-xs">
+                                        © 2025 Meta
+                                </div>
+
+                        </div>
+                </footer>
+
         </div>
-        <footer class="bg-white w-full  inset-x-0 fixed bottom-0 inset-x-0 flex flex-col items-center justify-center p-4 md:flex-row ">
-            <div class=" container mx-auto px-60 py-10  py- md:mb-0">
-                <ul class="flex flex-wrap gap-3 text-gray-600 text-sm/6">
-                    <li><a href="#" class="inline-block hover:underline">Français (Canada)</a></li>
-                    <li><a href="#" class="inline-block hover:underline text-gray-700">English (US)</a></li>
-                    <li><a href="#" class="inline-block hover:underline">Español</a></li>
-                    <li><a href="#" class="inline-block hover:underline">Deutsch</a></li>
-                    <li><a href="#" class="inline-block hover:underline">Italiano</a></li>
-                    <li><a href="#" class="inline-block hover:underline">Fula</a></li>
-                    <li><a href="#" class="inline-block hover:underline">Português (Brasil)</a></li>
-                    <li><a href="#" class="inline-block hover:underline">العربية</a></li>
-                    <li><a href="#" class="inline-block hover:underline">中文(简体)</a></li>
-                    <li><a href="#" class="inline-block hover:underline">日本語</a></li>
-                </ul>
-                <hr class="my-2 border-gray-300">
-                <div class="text-center space-x-2 ">
-                    <ul class="flex flex-wrap gap-3 text-gray-600 text-sm/6">
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">S’inscrire</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Se
-                                connecter</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Messenger</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Facebook
-                                Lite</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Vidéo</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Meta Pay</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Boutique
-                                Meta</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"> Meta
-                                Quest</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Meta AI</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Plus de
-                                contenu Meta AI</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Instagram</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Threads</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Centre
-                                d’information sur les élections</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Politique de
-                                confidentialité</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Centre de
-                                confidentialité</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">À propos</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Créer une
-                                publicité</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Créer une
-                                Page</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline"
-                                class="inline-block hover:underline">Développeurs</a></li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Emplois</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Cookies</a>
-                        </li>
-                        <li><a href="#" class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline"
-                                class="inline-block hover:underline" class="inline-block hover:underline">Choisir sa
-                                publicité
-                            </a></li>
-                        <li><a href="#">Conditions générales</a></li>
-                        <li><a href="#">Aide</a></li>
-                        <li><a href="#">Importation des contacts et non-utilisateurs
-                                Paramètres
-                                Historique d’activité</a></li>
-                    </ul>
-
-                </div>
-                <div class="text-left text-gray-600 my-2">
-                    Meta © 2025
-                </div>
-            </div>
-        </footer>
-
-    </div>
 </body>
 
 </html>
